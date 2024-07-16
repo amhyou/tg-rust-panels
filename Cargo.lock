@@ -1459,31 +1459,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rucpanels"
-version = "0.1.0"
-dependencies = [
- "arrayref",
- "bs58",
- "bytes",
- "ethnum",
- "futures",
- "hex",
- "k256",
- "log",
- "once_cell",
- "pretty_env_logger",
- "redis",
- "reqwest 0.12.5",
- "serde",
- "serde_json",
- "sha2",
- "sha3",
- "teloxide",
- "tokio",
- "warp",
-]
-
-[[package]]
 name = "rustc-demangle"
 version = "0.1.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1950,6 +1925,31 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "06794f8f6c5c898b3275aebefa6b8a1cb24cd2c6c79397ab15774837a0bc5755"
 dependencies = [
  "winapi-util",
+]
+
+[[package]]
+name = "tgrustpanels"
+version = "0.1.0"
+dependencies = [
+ "arrayref",
+ "bs58",
+ "bytes",
+ "ethnum",
+ "futures",
+ "hex",
+ "k256",
+ "log",
+ "once_cell",
+ "pretty_env_logger",
+ "redis",
+ "reqwest 0.12.5",
+ "serde",
+ "serde_json",
+ "sha2",
+ "sha3",
+ "teloxide",
+ "tokio",
+ "warp",
 ]
 
 [[package]]

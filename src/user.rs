@@ -43,7 +43,7 @@ impl User {
         let inv_nb = self.invoice;
         let userid = self.userid.clone();
         let passphrase = format!("/|tgrustpanels|/<Tron-Address>?!_{}_{}", userid, inv_nb);
-        let private_key_hex = rucpanels::passphrase_to_private_key(&passphrase);
-        rucpanels::generate_tron_address(&private_key_hex)
+        let private_key_hex = tgrustpanels::passphrase_to_private_key(&passphrase);
+        tgrustpanels::generate_tron_address(&private_key_hex)
     }
 }
